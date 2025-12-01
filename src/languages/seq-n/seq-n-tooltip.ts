@@ -2,7 +2,7 @@ import { syntaxTree } from '@codemirror/language';
 import type { Extension } from '@codemirror/state';
 import type { EditorView, Tooltip } from '@codemirror/view';
 import type { SyntaxNode } from '@lezer/common';
-import type { CommandDictionary, FswCommand, HwCommand } from '@nasa-jpl/aerie-ampcs';
+import type { CommandDictionary, FswCommand, HwCommand } from '@nasa-jpl/plandev-ampcs';
 import { PhoenixContext, PhoenixResources } from 'interfaces/phoenix.js';
 import { buildAmpcsArgumentTooltip, buildAmpcsCommandTooltip } from '../../utils/editor-utils.js';
 import { isFswCommandArgumentRepeat } from '../../utils/sequence-utils.js';

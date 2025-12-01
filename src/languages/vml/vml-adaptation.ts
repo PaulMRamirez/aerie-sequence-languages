@@ -13,7 +13,7 @@ import type {
   FswCommand,
   FswCommandArgument,
   HwCommand,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import type { VariableDeclaration } from '@nasa-jpl/seq-json-schema/types';
 import { unquoteUnescape } from '../../utils/string.js';
 import { isFswCommand } from '../../utils/sequence-utils.js';

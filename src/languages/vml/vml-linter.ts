@@ -3,7 +3,7 @@ import type { Diagnostic } from '@codemirror/lint';
 import type { Text } from '@codemirror/state';
 import type { EditorView } from '@codemirror/view';
 import type { SyntaxNode, Tree } from '@lezer/common';
-import type { CommandDictionary, FswCommand, FswCommandArgument } from '@nasa-jpl/aerie-ampcs';
+import type { CommandDictionary, FswCommand, FswCommandArgument } from '@nasa-jpl/plandev-ampcs';
 import { closest } from 'fastest-levenshtein';
 import type { GlobalVariable } from '../../types/global-types.js';
 import { quoteEscape, unquoteUnescape } from '../../utils/string.js';

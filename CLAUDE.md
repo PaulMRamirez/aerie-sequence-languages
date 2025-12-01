@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Project Overview
 
-This is `@nasa-jpl/aerie-sequence-languages`, a TypeScript library that provides consolidated parsing for sequence languages with first-party support in Aerie sequencing. The package is used by the Phoenix Sequence Editor for parsing and editing spacecraft command sequences.
+This is `@nasa-jpl/plandev-sequence-languages`, a TypeScript library that provides consolidated parsing for sequence languages with first-party support in PlanDev sequencing. The package is used by the Phoenix Sequence Editor for parsing and editing spacecraft command sequences.
 
 ### Supported Languages
 
@@ -86,8 +86,8 @@ Tests are located alongside source files with `.test.ts` suffix. Key test files:
 ## Dependencies
 
 Key external dependencies:
-- `@nasa-jpl/aerie-ampcs` - AMPCS command dictionary types
-- `@nasa-jpl/aerie-time-utils` - Time parsing utilities
+- `@nasa-jpl/plandev-ampcs` - AMPCS command dictionary types
+- `@nasa-jpl/plandev-time-utils` - Time parsing utilities
 - `@nasa-jpl/seq-json-schema` - SeqJSON schema definitions
 
 ## Module Exports

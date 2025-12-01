@@ -3,7 +3,7 @@ import { type Diagnostic } from '@codemirror/lint';
 import { EditorState } from '@codemirror/state';
 import type { EditorView } from '@codemirror/view';
 import type { SyntaxNode, Tree } from '@lezer/common';
-import type { CommandDictionary, FswCommand, FswCommandArgument, HwCommand } from '@nasa-jpl/aerie-ampcs';
+import type { CommandDictionary, FswCommand, FswCommandArgument, HwCommand } from '@nasa-jpl/plandev-ampcs';
 import {
   convertIsoToUnixEpoch,
   getBalancedDuration,
@@ -11,7 +11,7 @@ import {
   isTimeMax,
   TimeTypes,
   validateTime,
-} from '@nasa-jpl/aerie-time-utils';
+} from '@nasa-jpl/plandev-time-utils';
 import type { VariableDeclaration } from '@nasa-jpl/seq-json-schema/types';
 import { closest, distance } from 'fastest-levenshtein';
 import type { PhoenixContext } from '../../interfaces/phoenix.js';
@@ -25,7 +25,7 @@ import {
 } from '../../utils/sequence-utils.js';
 import { pluralize, quoteEscape } from '../../utils/string.js';
 
-import { isoFromJSDate } from '@nasa-jpl/aerie-time-utils';
+import { isoFromJSDate } from '@nasa-jpl/plandev-time-utils';
 import { getChildrenNode, getDeepestNode, getFromAndTo } from '../../utils/tree-utils.js';
 import { closeSuggestion, computeBlocks, openSuggestion } from './custom-folder.js';
 import { TOKEN_ERROR } from './seq-n-constants.js';
@@ -46,7 +46,7 @@ const KNOWN_DIRECTIVES = [
 ].map(name => `@${name}`);
 
 /**
- * These error messages are ported from helpers in `customCodes.ts` from aerie-ui
+ * These error messages are ported from helpers in `customCodes.ts` from plandev-ui
  */
 const ERROR_MESSAGES = {
   INVALID_ABSOLUTE_TIME: `Time Error: Incorrectly formatted absolute time string.

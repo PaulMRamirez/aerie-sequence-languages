@@ -1,5 +1,5 @@
 import type { SyntaxNode, Tree } from '@lezer/common';
-import type { CommandDictionary, FswCommandArgument, FswCommandArgumentRepeat } from '@nasa-jpl/aerie-ampcs';
+import type { CommandDictionary, FswCommandArgument, FswCommandArgumentRepeat } from '@nasa-jpl/plandev-ampcs';
 import type {
   Activate,
   Args,
@@ -34,7 +34,7 @@ import {
   parseDurationString,
   TimeTypes,
   validateTime,
-} from '@nasa-jpl/aerie-time-utils';
+} from '@nasa-jpl/plandev-time-utils';
 import { logInfo } from '../logger.js';
 import { removeEscapedQuotes, unquoteUnescape } from '../utils/string.js';
 

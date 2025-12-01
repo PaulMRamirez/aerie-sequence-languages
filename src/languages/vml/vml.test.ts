@@ -1,5 +1,5 @@
 import type { SyntaxNode } from '@lezer/common';
-import type { FswCommandArgumentInteger } from '@nasa-jpl/aerie-ampcs';
+import type { FswCommandArgumentInteger } from '@nasa-jpl/plandev-ampcs';
 import { assert, describe, expect, it } from 'vitest';
 import { filterNodes, nodeContents } from '../../utils/tree-utils.js';
 import { vmlParser } from './vml.js';
@@ -270,11 +270,11 @@ R00:00:00.1 a := b ^ c ; power
   it('file with header', () => {
     const input = `CCSD3ZF0000100000001NJPL3KS0L015$$MARK$$;
   DATA_SET_ID=VIRTUAL_MACHINE_LANGUAGE;
-  MISSION_NAME=AERIE;
+  MISSION_NAME=PLANDEV;
   CCSD$$MARKER$$MARK$$NJPL3IF0040300000001;
   $MRO       VIRTUAL MACHINE LANGUAGE FILE
   ************************************************************
-  *PROJECT    AERIE
+  *PROJECT    PLANDEV
   *Input files used:
   *File Type   Last modified             File name
   *SSF        Wed Jun 12 20:18:11 2024  rm461a.ssf

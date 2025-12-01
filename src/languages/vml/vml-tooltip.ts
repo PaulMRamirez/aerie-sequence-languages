@@ -8,7 +8,7 @@ import type {
   FswCommand,
   FswCommandArgument,
   FswCommandArgumentInteger,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import { buildAmpcsArgumentTooltip, buildAmpcsCommandTooltip } from 'utils/editor-utils.js';
 import type { CreateTooltip, LibrarySequenceSignature, PhoenixResources } from '../../interfaces/phoenix.js';
 import { decodeInt32Array } from '../../utils/sequence-utils.js';

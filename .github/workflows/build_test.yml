@@ -12,16 +12,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo (aerie-sequence-languages)
+      - name: Checkout Repo (plandev-sequence-languages)
         uses: actions/checkout@v4
       - name: Use Node.js 22.13.1
         uses: actions/setup-node@v4
         with:
           node-version: 22.13.1
           cache: 'npm'
-      - name: Install dependencies (aerie-sequence-languages)
+      - name: Install dependencies (plandev-sequence-languages)
         run: npm ci
-      - name: Build Repo (aerie-sequence-languages)
+      - name: Build Repo (plandev-sequence-languages)
         run: npm run build --if-present
-      - name: Test Repo (aerie-sequence-languages)
+      - name: Test Repo (plandev-sequence-languages)
         run: npm test

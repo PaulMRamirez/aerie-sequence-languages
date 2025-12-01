@@ -7,7 +7,7 @@ import type {
   FswCommandArgumentRepeat,
   FswCommandArgumentVarString,
   FswCommandArgumentFixedString,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import type { EditorView } from '@codemirror/view';
 import type { LibrarySequenceSignature, PhoenixContext } from './phoenix.js';
 

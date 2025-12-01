@@ -1,13 +1,13 @@
 import type { SyntaxNode } from '@lezer/common';
 import { Tree } from '@lezer/common';
-import type { CommandDictionary, FswCommandArgument } from '@nasa-jpl/aerie-ampcs';
+import type { CommandDictionary, FswCommandArgument } from '@nasa-jpl/plandev-ampcs';
 import {
   getBalancedDuration,
   getDurationTimeComponents,
   parseDurationString,
   validateTime,
   TimeTypes,
-} from '@nasa-jpl/aerie-time-utils';
+} from '@nasa-jpl/plandev-time-utils';
 import { SatfSasfParser } from '../languages/satf/grammar/satf-sasf.js';
 import { quoteEscape, removeEscapedQuotes, removeQuote, unquoteUnescape } from '../utils/string.js';
 import { SATF_SASF_NODES } from '../languages/satf/constants/satf-sasf-constants.js';

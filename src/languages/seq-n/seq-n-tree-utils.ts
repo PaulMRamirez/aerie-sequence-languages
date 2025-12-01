@@ -5,7 +5,7 @@ import type {
   FswCommand,
   FswCommandArgument,
   FswCommandArgumentRepeat,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import { SEQN_NODES } from './seqn-grammar-constants.js';
 import { parseVariables } from '../../converters/seqnToSeqJson.js';
 import type { EditorView } from '@codemirror/view';

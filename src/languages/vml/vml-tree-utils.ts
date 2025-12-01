@@ -6,7 +6,7 @@ import type {
   FswCommand,
   FswCommandArgument,
   FswCommandArgumentRepeat,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import type { ArgTextDef, CommandInfoMapper, TimeTagInfo } from '../../interfaces/command-info-mapper.js';
 import type { LibrarySequenceSignature, PhoenixContext } from '../../interfaces/phoenix.js';
 import { filterEmpty } from '../../utils/generic.js';

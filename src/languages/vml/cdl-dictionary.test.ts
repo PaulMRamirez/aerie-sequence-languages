@@ -2,7 +2,7 @@ import {
   type FswCommandArgumentEnum,
   type FswCommandArgumentInteger,
   type FswCommandArgumentVarString,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import { readFileSync } from 'fs';
 import { describe, expect, test } from 'vitest';
 import { parseCdlDictionary, toAmpcsXml } from './cdl-dictionary.js';
@@ -176,7 +176,7 @@ describe('cdl parse tests', async () => {
 
     const cdlDictionary = parseCdlDictionary(contents);
 
-    expect(cdlDictionary.header.mission_name).toBe('Aerie');
+    expect(cdlDictionary.header.mission_name).toBe('PlanDev');
     expect(cdlDictionary.header.spacecraft_ids).toEqual([1]);
 
     expect(cdlDictionary.fswCommands.length).toBe(2);

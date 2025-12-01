@@ -1,11 +1,11 @@
 import type { Completion, CompletionContext, CompletionResult } from '@codemirror/autocomplete';
 import { syntaxTree } from '@codemirror/language';
-import type { CommandDictionary } from '@nasa-jpl/aerie-ampcs';
+import type { CommandDictionary } from '@nasa-jpl/plandev-ampcs';
 import { SEQN_NODES } from './seqn-grammar-constants.js';
 import { fswCommandArgDefault } from '../../utils/sequence-utils.js';
 import { getDefaultVariableArgs } from '../../utils/sequence-utils.js';
 import { getFromAndTo, getNearestAncestorNodeOfType } from '../../utils/tree-utils.js';
-import { isoFromJSDate } from '@nasa-jpl/aerie-time-utils';
+import { isoFromJSDate } from '@nasa-jpl/plandev-time-utils';
 import type { PhoenixContext } from '../../interfaces/phoenix.js';
 import type { GlobalVariable } from '../../types/global-types.js';
 import { seqnParser } from './seq-n.js';

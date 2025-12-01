@@ -14,7 +14,7 @@ import type {
   FswCommandArgumentUnsigned,
   FswCommandArgumentVarString,
   HwCommand,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import type { VariableDeclaration } from '@nasa-jpl/seq-json-schema/types';
 import { CommandInfoMapper } from '../interfaces/command-info-mapper.js';
 import type { EditorView } from '@codemirror/view';

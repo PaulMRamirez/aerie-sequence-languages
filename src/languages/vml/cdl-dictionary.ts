@@ -8,7 +8,7 @@ import type {
   FswCommandArgumentMap,
   Header,
   NumericRange,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 
 const START_LOOKUP_ARG = /^\s*LOOKUP ARGUMENT\s*:\s*(\w+)\s*$/;
 const END_LOOKUP_ARG = /^\s*END\s+LOOKUP\s+ARGUMENT\s*$/;

@@ -1,7 +1,7 @@
 import { type Diagnostic } from '@codemirror/lint';
 import type { Extension, Text } from '@codemirror/state';
 import type { EditorView } from '@codemirror/view';
-import type { CommandDictionary } from '@nasa-jpl/aerie-ampcs';
+import type { CommandDictionary } from '@nasa-jpl/plandev-ampcs';
 import { parse as jsonSourceMapParse } from 'json-source-map';
 import { PhoenixResources } from '../../interfaces/phoenix';
 

@@ -12,7 +12,7 @@ import type {
   Header,
   HwCommand,
   NumericRange,
-} from '@nasa-jpl/aerie-ampcs';
+} from '@nasa-jpl/plandev-ampcs';
 import type { VariableDeclaration } from '@nasa-jpl/seq-json-schema/types';
 import { filterEmpty } from '../../utils/generic.js';
 import type { LibrarySequenceSignature } from '../../interfaces/phoenix.js';

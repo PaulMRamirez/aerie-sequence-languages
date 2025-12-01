@@ -1,7 +1,7 @@
 import type { indentService, LRLanguage } from '@codemirror/language';
 import type { linter } from '@codemirror/lint';
 import type { EditorView, hoverTooltip, Tooltip, ViewPlugin } from '@codemirror/view';
-import type { ChannelDictionary, CommandDictionary, ParameterDictionary } from '@nasa-jpl/aerie-ampcs';
+import type { ChannelDictionary, CommandDictionary, ParameterDictionary } from '@nasa-jpl/plandev-ampcs';
 import type { VariableDeclaration } from '@nasa-jpl/seq-json-schema/types';
 
 export type UserSequence = {
